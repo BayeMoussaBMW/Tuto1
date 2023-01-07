@@ -2,6 +2,7 @@ package com.kalamou.tuto1
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +17,14 @@ class HomeActivity: AppCompatActivity() {
         val icon = findViewById(R.id.ic1) as? ImageView
         icon?.setOnClickListener {
             Toast.makeText(this, "Vous avez cliquez sur l'image", Toast.LENGTH_SHORT).show()
+
         }
+    }
+
+    private fun onClickSwitchActivity(view: Any, function: () -> Unit): Any {
+        intent = onNewIntent(this, DiarraActivity.class);
+        startActivity (intent);
+
     }
 
 
