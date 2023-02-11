@@ -2,4 +2,5 @@
     <string name="app_name">Tuto1</string>
     <string name="welcome_name">Welcome Mareme</string>
     <string name="switcher_pour_activer_le_mode_sombre">Switcher pour activer le mode sombre</string>
+    <string name="entrez_votre_pr_nom_ici">Entrez votre prénom ici</string>
 </resources>

@@ -16,16 +16,18 @@ class HomeActivity: AppCompatActivity() {
         setContentView(R.layout.activity_home)
         val icon = findViewById(R.id.ic1) as? ImageView
         icon?.setOnClickListener {
-            Toast.makeText(this, "Vous avez cliquez sur l'image", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Vous avez cliqué sur l'image", Toast.LENGTH_SHORT).show()
 
         }
     }
 
     private fun onClickSwitchActivity(view: Any, function: () -> Unit): Any {
-        intent = onNewIntent(this, DiarraActivity.class);
+        intent = onNewIntent(this, DiarraActivity.class));
         startActivity (intent);
+        return
 
     }
+
 
 
 }
