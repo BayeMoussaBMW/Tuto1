@@ -3,4 +3,8 @@
     <string name="welcome_name">Welcome Mareme</string>
     <string name="switcher_pour_activer_le_mode_sombre">Switcher pour activer le mode sombre</string>
     <string name="entrez_votre_pr_nom_ici">Entrez votre prénom ici</string>
+    <string name="entrez_votre_nom_ici">Entrez votre nom ici</string>
+    <string name="entrez_votre_pr_age_ici">Entrez votre age ici</string>
+    <string name="continuer_text">Continuer</string>
+    <string name="welcome_text">Welcome</string>
 </resources>
